@@ -1,0 +1,100 @@
+.app-container {
+  font-family: Inter, system-ui, sans-serif;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  width: 760px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.student-info {
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.inputs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.input-block label {
+  display: block;
+  font-size: 14px;
+}
+
+.input-block input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.operations {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.operations button {
+  margin-left: auto;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+}
+
+.result pre {
+  margin: 0;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.result button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.no-result {
+  color: #6b7280;
+}
+
+.details {
+  margin-top: 12px;
+  font-size: 13px;
+}
